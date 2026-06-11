@@ -1,0 +1,104 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 10pt;
+
+}
+
+h1{
+    color:rgb(216, 227, 231);
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: burlywood;
+    text-align: center;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    background-color: wheat;
+}
+.navigation a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+
+}
+
+.navigation :hover{
+    background-color: rgb(217, 174, 99);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/*container for the webpage layout*/
+.container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    /*background-color: rgb(205, 92, 199);*/
+    padding: 20px;
+}
+
+.container div{
+    background-color: burlywood;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    background-color: rgb(151, 115, 86);
+  }
+
+.navigation{
+    display: block;
+    list-style: none;
+    gap: 20px;
+    background-color: burlywood;
+    text-align: center;
+    
+}
+.navigation a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+
+}
+
+.navigation :hover{
+    background-color: rgba(222, 138, 27, 0.438);
+}
+
+h1{
+    font-size: 14pt;
+}
+p{
+    font-size: 8pt;
+}
+
+.container{
+    display: inline-block;
+    grid-template-rows: auto auto auto;
+    /*background-color: rgb(205, 92, 199);*/
+    padding: 20px;
+}
+}
