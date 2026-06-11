@@ -1,12 +1,12 @@
-###Added
+# Added
 An interactive map
 Light box gallery
 
 ### Changed
 Navigation box
 
-###Fixed
+# Fixed
 The timeline and milestone
 
-##Removed
+## Removed
 A hero image on index page
