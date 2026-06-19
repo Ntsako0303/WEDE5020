@@ -10,3 +10,9 @@ The timeline and milestone
 
 ## Removed
 A hero image on index page
+
+# Added
+Sitemap was added
+
+# added
+typography 
