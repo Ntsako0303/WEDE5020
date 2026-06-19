@@ -13,6 +13,11 @@ information, and enjoy secure, personalized purchasing experiences.
 We must that we regularly check for any errors, make sure that the website is working they way 
 want it to work for the best customer experience
 ##### Key Features and Functionality
+## Visual Styles
+Back-ground colour,box-shadow,colour.
+## responsive Design
+# breakpoints
+##
 Homepage
 • The first page will be clean, well- organized 
 • There will be the following: 
